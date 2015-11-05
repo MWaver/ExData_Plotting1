@@ -1,5 +1,9 @@
+# IMPORTANT: This script assumes the data file "household_power_consumption.txt" is
+# present in the current working directory.
 
 # LOADING THE DATA
+
+    filename <- "household_power_consumption.txt"
 
     # Reading the file
     df <- read.table(filename, header = TRUE, sep = ";", na.strings = "?", stringsAsFactors = FALSE)
