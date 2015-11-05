@@ -22,6 +22,6 @@
 # GENERATING THE PLOT
 
     png("plot2.png", width = 480, height = 480)
-    plot(df$DateTime,df$Global_active_power,type = "l", xlab = "", ylab = "Global Active Power (killowatts)")
+    plot(df$DateTime,df$Global_active_power,type = "l", xlab = "", ylab = "Global Active Power (kilowatts)")
     dev.off()
     
